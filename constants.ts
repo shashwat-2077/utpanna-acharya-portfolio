@@ -5,7 +5,7 @@ export const PERSONAL_INFO = {
     name: "Utpanna Acharya",
     tagline: "HR/IR Postgraduate | Labour Welfare | Employee Relations | HR Operations",
     email: "uacharya4422@gmail.com",
-    phone: "+91 8118062150",
+    phone: "+91 78150 82898",
     linkedin: "https://www.linkedin.com/in/utpanna-acharya/",
     resumeLink: "/utpanna acharya resume.pdf",
 };

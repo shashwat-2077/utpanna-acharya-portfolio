@@ -9,11 +9,14 @@ const Hero: React.FC = () => {
             <div className="container mx-auto max-w-4xl px-4 text-center md:text-left">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">
                     <div className="md:order-2">
-                        <img 
-                            src="/images/display_picture.png"
-                            alt="Utpanna Acharya"
-                            className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-2xl border-4 border-white"
-                        />
+                        <picture>
+                            <source srcSet="/images/display_picture.webp" type="image/webp" />
+                            <img 
+                                src="/images/display_picture.png"
+                                alt="Utpanna Acharya"
+                                className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-2xl border-4 border-white"
+                            />
+                        </picture>
                     </div>
                     <div className="md:order-1 flex-1">
                         <h1 className="text-5xl md:text-6xl font-bold text-navy tracking-tight">
