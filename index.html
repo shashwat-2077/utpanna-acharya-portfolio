@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Utpanna Acharya | HR/IR Postgraduate Portfolio</title>
+    <meta name="description" content="Portfolio of Utpanna Acharya, a postgraduate student in Personnel Management & Industrial Relations, specializing in Labour Welfare, Employee Relations, and HR Operations." />
+    <meta name="author" content="Utpanna Acharya" />
+    <meta name="keywords" content="Utpanna Acharya, HR, IR, Human Resources, Industrial Relations, Personnel Management, Labour Welfare, Employee Relations, Portfolio" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Utpanna Acharya | HR/IR Postgraduate Portfolio" />
+    <meta property="og:description" content="Discover the profile of Utpanna Acharya, showcasing skills in labour welfare, employee engagement, and conflict management." />
+    <meta property="og:image" content="https://picsum.photos/1200/630" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Utpanna Acharya | HR/IR Postgraduate Portfolio" />
+    <meta property="twitter:description" content="Discover the profile of Utpanna Acharya, showcasing skills in labour welfare, employee engagement, and conflict management." />
+    <meta property="twitter:image" content="https://picsum.photos/1200/630" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        'navy': '#0a192f',
+                        'light-navy': '#112240',
+                        'teal': '#00cba9',
+                        'light-teal': '#64ffda',
+                        'slate': '#8892b0',
+                        'light-slate': '#a8b2d1',
+                        'lightest-slate': '#ccd6f6',
+                        'off-white': '#f8f9fa',
+                        'gray': {
+                            500: '#6b7280',
+                            600: '#4b5563',
+                            700: '#374151',
+                            800: '#1f2937',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- 
+      CUSTOMIZATION CHECKLIST:
+      1. Profile Photo: Replace `https://picsum.photos/seed/utpanna/300/300` in `components/Hero.tsx` with a direct link to your professional photo.
+      2. Resume Link: In `constants.ts`, replace `[PASTE_GOOGLE_DRIVE_RESUME_LINK_HERE]` with the public link to your resume PDF.
+      3. Favicon: Replace the default icon by adding a `favicon.svg` or `favicon.ico` to the root directory.
+      4. Domain Hosting: To deploy this site, consider services like Netlify, Vercel, or GitHub Pages. They offer simple, free hosting for static React applications.
+    -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Utpanna Acharya",
+      "url": "https://your-domain.com",
+      "jobTitle": "Personnel Management & Industrial Relations Student",
+      "email": "uacharya4422@gmail.com",
+      "telephone": "+91 8118062150",
+      "sameAs": [
+        "https://www.linkedin.com/in/utpanna-acharya/"
+      ],
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Berhampur University"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Utkal University"
+        }
+      ]
+    }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-off-white text-gray-800 antialiased">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
