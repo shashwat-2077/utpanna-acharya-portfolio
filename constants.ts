@@ -1,5 +1,5 @@
 
-import type { EducationItem, ExperienceItem, CertificationItem, VolunteeringItem, AchievementItem } from './types';
+import type { EducationItem, ExperienceItem, CertificationItem, VolunteeringItem, AchievementItem, ResearchItem } from './types';
 
 export const PERSONAL_INFO = {
     name: "Utpanna Acharya",
@@ -76,6 +76,13 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
             "Analyzed survey results to formulate and suggest targeted improvements for boosting employee morale and satisfaction.",
             "Significantly strengthened interpersonal, communication, and administrative skills through direct engagement and project ownership."
         ]
+    }
+];
+
+export const RESEARCH_DATA: ResearchItem[] = [
+    {
+        title: "Conflict Management System (CMS) Research Paper Proposal",
+        description: "Developed a research paper proposal on Conflict Management System (CMS) as part of Conflict Management coursework; received Consolation Best Paper Award in recognition of research quality and originality."
     }
 ];
 

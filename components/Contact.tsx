@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
                     </div>
                     <a href={PERSONAL_INFO.linkedin} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-lg text-lightest-slate hover:text-teal transition-colors">
                         <Linkedin className="h-6 w-6" />
-                        <span>LinkedIn Profile</span>
+                        <span className="whitespace-nowrap">LinkedIn Profile</span>
                     </a>
                 </div>
             </div>

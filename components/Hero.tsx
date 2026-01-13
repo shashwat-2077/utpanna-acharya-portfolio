@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">
                     <div className="md:order-2">
                         <img 
-                            src="/images/ua_dp.png"
+                            src="/images/display_picture.png"
                             alt="Utpanna Acharya"
                             className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-2xl border-4 border-white"
                         />

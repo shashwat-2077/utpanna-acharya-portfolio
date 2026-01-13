@@ -31,3 +31,8 @@ export interface AchievementItem {
     description: string;
     context: string;
 }
+
+export interface ResearchItem {
+    title: string;
+    description: string;
+}

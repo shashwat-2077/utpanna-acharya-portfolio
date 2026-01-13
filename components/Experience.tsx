@@ -1,9 +1,9 @@
 
 import React from 'react';
 import Section from './Section';
-import { EXPERIENCE_DATA } from '../constants';
-import type { ExperienceItem } from '../types';
-import { CheckCircle } from 'lucide-react';
+import { EXPERIENCE_DATA, RESEARCH_DATA } from '../constants';
+import type { ExperienceItem, ResearchItem } from '../types';
+import { CheckCircle, Award } from 'lucide-react';
 
 const ExperienceCard: React.FC<{ item: ExperienceItem }> = ({ item }) => (
     <div className="mb-8 p-6 bg-white rounded-lg shadow-md transition-shadow hover:shadow-xl">
@@ -23,11 +23,28 @@ const ExperienceCard: React.FC<{ item: ExperienceItem }> = ({ item }) => (
     </div>
 );
 
+const ResearchCard: React.FC<{ item: ResearchItem }> = ({ item }) => (
+    <div className="mb-8 p-6 bg-white rounded-lg shadow-md transition-shadow hover:shadow-xl">
+        <div className="flex items-start">
+            <Award className="flex-shrink-0 h-6 w-6 text-teal mt-1 mr-3" />
+            <div>
+                <h3 className="text-2xl font-bold text-navy mb-2">{item.title}</h3>
+                <p className="text-lg text-gray-800">{item.description}</p>
+            </div>
+        </div>
+    </div>
+);
+
 const Experience: React.FC = () => {
     return (
-        <Section id="experience" title="Internship Case Studies">
+        <Section id="experience" title="Experience">
+            <h2 className="text-3xl font-bold text-navy mb-6">Internship Case Studies</h2>
             {EXPERIENCE_DATA.map((item, index) => (
                 <ExperienceCard key={index} item={item} />
+            ))}
+            <h2 className="text-3xl font-bold text-navy mb-6 mt-12">Research & Publications</h2>
+            {RESEARCH_DATA.map((item, index) => (
+                <ResearchCard key={index} item={item} />
             ))}
         </Section>
     );
