@@ -82,7 +82,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
 export const RESEARCH_DATA: ResearchItem[] = [
     {
         title: "Conflict Management System (CMS) Research Paper Proposal",
-        description: "Developed a research paper proposal on Conflict Management System (CMS) as part of Conflict Management coursework; received Consolation Best Paper Award in recognition of research quality and originality."
+        description: "Developed a research paper proposal on Conflict Management System (CMS) as part of Conflict Management coursework; \nreceived Consolation Best Paper Award in recognition of research quality and originality."
     }
 ];
 
